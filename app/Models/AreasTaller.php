@@ -10,12 +10,12 @@ use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class AreasTaller
- * 
+ *
  * @property int $id
  * @property int $tayer
  * @property string $nomber
  * @property string|null $descripcion
- * 
+ *
  * @property Taller $taller
  * @property OperacionVehiculo $operacion_vehiculo
  *

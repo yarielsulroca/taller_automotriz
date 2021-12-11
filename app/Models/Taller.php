@@ -20,5 +20,10 @@ class Taller extends Model
     {
     return $this->hasMany(AreasTaller::class, 'taller','id' );
     }
+    public function buscaAreasTaller($id)
+    {
+        $areas_taller= AreasTaller::where('taller','=',$id)->get();
+        return $areas_taller;
+    }
 
 }
